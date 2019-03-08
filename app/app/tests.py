@@ -1,5 +1,5 @@
 from django.test import TestCase
-from app.calc import add, subtract
+from app.calc import add, subtract, div
 
 class ClacTests(TestCase):
     """docstring for .
@@ -16,4 +16,4 @@ class ClacTests(TestCase):
 
     def test_div_numbers(self):
         """Test values are divided and returned"""
-        self.assertEqual(divide(4/2),2)
+        self.assertEqual(div(4,2),2)
