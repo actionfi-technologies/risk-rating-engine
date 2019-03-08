@@ -13,3 +13,7 @@ class ClacTests(TestCase):
     def test_subtract_numbers(self):
         """Test values are subtracted and returned"""
         self.assertEqual(subtract(5,11),6)
+
+    def test_div_numbers(self):
+        """Test values are divided and returned"""
+        self.assertEqual(divide(4/2),2)
