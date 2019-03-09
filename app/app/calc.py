@@ -6,7 +6,7 @@ def subtract(x,y):
     """subtract x from y"""
     return y-x
 
-def div(x,y):
+def divide(x,y):
     """div x from y"""
     return x/y
     
